@@ -1,3 +1,59 @@
-html {
-    box-sizing: border-box;
+
+
+
+
+/*ОБЩИЙ БЛОК*/
+.container {
+
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    margin-top: 200px;
+    margin-left: 550px;
+    background-color:white;
+    border:2px solid #DDDDDD;
 }
+/*ЗАГОЛОВОК*/
+.header {
+
+    position:absolute;
+    width: 270px;
+    height: 32px;
+    background-color:aqua;
+    border-top:2px solid #DDDDDD;
+    border-bottom:2px solid #DDDDDD;
+}
+/*ЛОГО ЗАГОЛОВКА*/
+.header-logo__logo {
+    position:absolute;
+    width: 20.93px;
+    height: 15.93px;
+    margin-top: 7px;
+    margin-left:5px ;
+    
+}
+.nav{
+display: flex;
+justify-content:flex-end;
+margin-top:7px;
+
+
+
+}
+.nav__cont {
+    background-color:#868686 ;
+    list-style-type: none;
+    width:14px;
+    height:5px;
+    margin:7px;
+}
+.horisont {
+    margin-top: 0%;
+}
+.banner {
+    display:flex;
+    width: 229.5px;
+    height: 147.12px;
+    top:74,5px;
+    left: 20px;
+}/*не могу понять отступы*/
