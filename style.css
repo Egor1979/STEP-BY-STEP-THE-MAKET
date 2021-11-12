@@ -1,17 +1,23 @@
 
 
 
+.wropper{
+    
+    
 
+   
+    
+}
 /*ОБЩИЙ БЛОК*/
 .container {
 
-    position: absolute;
+    
     width: 270px;
     height: 270px;
     margin-top: 200px;
     margin-left: 550px;
     background-color:white;
-    border:2px solid #DDDDDD;
+    border:2px solid black;/*i chainghed a color because to see better*/
 }
 /*ЗАГОЛОВОК*/
 .header {
@@ -20,8 +26,8 @@
     width: 270px;
     height: 32px;
     background-color:aqua;
-    border-top:2px solid #DDDDDD;
-    border-bottom:2px solid #DDDDDD;
+    border-top:2px solid black;
+    border-bottom:2px solid black ;
 }
 /*ЛОГО ЗАГОЛОВКА*/
 .header-logo__logo {
@@ -51,11 +57,18 @@ margin-top:7px;
     margin-top: 0%;
 }
 .banner {
+    
     display:flex;
+
     width: 229.5px;
     height: 147.12px;
+    background-color: cadetblue;
+   /* margin-left: 20px;
+    margin-bottom: 73px;*/
+    margin:auto;
+    
      
-    }/*не могу понять отступы*/
+    }/*jast a block without any a flex*/
     .banner__title{
         width: 88px;
         height: 8px;
