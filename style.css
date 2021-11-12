@@ -16,7 +16,7 @@
 /*ЗАГОЛОВОК*/
 .header {
 
-    position:absolute;
+    
     width: 270px;
     height: 32px;
     background-color:aqua;
@@ -54,6 +54,29 @@ margin-top:7px;
     display:flex;
     width: 229.5px;
     height: 147.12px;
-    top:74,5px;
-    left: 20px;
-}/*не могу понять отступы*/
+     73,5px;
+    }/*не могу понять отступы*/
+    .banner__title{
+        width: 88px;
+        height: 8px;
+        background: #868686;
+         }
+         .banner__text{
+             width: 75px ;
+             height: 15px ;
+             
+         }
+         .banner__password{
+            width: 75px ;
+            height: 15px ;
+         }
+         .banner__button{
+             width: 88px;;
+             height: 20px ;
+             border-radius: 10px;
+             background: #3ec6ff;
+         }
+    .banner__foto{
+        width:118,25px ;
+        height:147,12px ;
+    }
